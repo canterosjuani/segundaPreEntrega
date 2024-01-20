@@ -276,7 +276,7 @@ textarea {
     .contenedorSobreMi {
         text-align: center;
         flex-direction: column;
-        right
+        margin-left: 200px;
         
     }
 
@@ -302,12 +302,26 @@ textarea {
         height: auto;
         display: inline-block;
         overflow: hidden;
-        width: 100%;
+        width: 50%;
+    }
+
+    .sectionTrabajos {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0;
+        padding: 0;
     }
 
 }
 
 @media (max-width:768px) {
+    .sectionTrabajos {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0;
+        padding: 0;
+    }
+
     
 
 }
